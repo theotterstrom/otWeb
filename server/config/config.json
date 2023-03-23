@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "lukasotterstrom_com",
+    "password": "AekDcbfapdEyB9xzHt6r",
+    "database": "lukasotterstrom_com_db",
+    "host": "mysql106.unoeuro.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
