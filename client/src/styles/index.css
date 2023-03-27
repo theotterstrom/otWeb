@@ -1,46 +1,59 @@
+html {
+  overflow-y: scroll;
+}
 body {
   background-image: url('./wallhaven-nkwyy6.jpg');
+  
 }
-
+#homePagePP{
+  height: 1000px;
+  width: 1000px;
+}
 .menuBar{
   background: linear-gradient(to bottom, #0a003b, #00d5e0);
   height: 10vh;
   padding-left: 10vw;
+  padding-right: 10vw;
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
+  z-index: 1;
+  position: relative;
 }
 
+/* Style for phones */
 .menuBut{
   background-color: transparent;
   transition: background-color 1s;
   color: white;
-  font-size: 2vw;
+  font-size: 30px;
   border: 0;
   margin-top: 1vh;
   border-radius: 15px;
   padding: 10px;
   margin-right: 2vw;
 }
+
+
+
 .menuBut:hover{
 background-color: rgba(0, 0, 0, 0.5);
 }
 
 .mainPage{
-  margin-left: 25vw;
-  margin-right: 20vw;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 15px;
   padding: 30px;
   padding-bottom: 40px;
   text-align: center;
   font-weight: bold;
-  margin-top: 6vh;
+  margin-top: 4vh;
+  font-size: 20px;
 }
 
 .line{
   background-color: black;
   height: 4px;
-  width: 55%;
+  
   border-radius: 30px;
 }
 
@@ -54,20 +67,20 @@ background-color: rgba(0, 0, 0, 0.5);
   font-weight: normal;
 }
 .tabContainer{
-  width: 18vw;
-  height:3vh;
-  margin-left: 25vw;
+  width: 20vw;
+  height:5vh;
+  margin-left: 26vw;
   margin-right: 20vw;
   position: absolute;
-  margin-top: 2vh;
+  margin-top: 10px;
 }
 .tab{
 background-color: darkblue;
-font-size: 20px;
+font-size: 18px;
 width: 50%;
 color: white;
 padding-top: 3px;
-height: 4vh;
+height: 5vh;
 border-top-left-radius: 15px;
 border-top-right-radius: 15px;
 }
@@ -92,3 +105,4 @@ width: 100%;
 table, th, td {
   border:1px solid black;
 }
+

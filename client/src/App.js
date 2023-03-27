@@ -3,6 +3,7 @@ import Menu from './Menu';
 import ProfilePage from './pages/profile';
 import HomePage from './pages/home';
 import LoginPage from './pages/login'
+import SignUpPage from './pages/signup';
 import $ from 'jquery';
 import axios from "axios";
 import { useEffect } from 'react';
@@ -12,13 +13,13 @@ function App() {
 
   return (
     <div>
-      
       <Router>
       <Menu />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
         </Routes>
       </Router>
     </div>
